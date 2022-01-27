@@ -12,6 +12,9 @@ require("bufferline").setup{
         }
     }
 }
+require'nvim-tree'.setup {
+    auto_close = true,
+}
 -- setup lualine
 require('lualine').setup{}
 require('nvim_comment').setup()

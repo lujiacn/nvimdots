@@ -53,4 +53,6 @@ return require('packer').startup(function(use)
     use 'neovim/nvim-lspconfig' -- Collection of configurations for the built-in LSP client
     use 'tami5/lspsaga.nvim'  
     use 'onsails/lspkind-nvim'
+    use 'junegunn/vim-easy-align'
+    use 'easymotion/vim-easymotion'
 end)

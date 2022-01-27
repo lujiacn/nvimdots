@@ -53,7 +53,10 @@ colorscheme sonokai
 "  *****************************************************************************
 "  Key Maps
 "  *****************************************************************************"
-"nvim-tree
+" nvim-cmment
+nnoremap <leader>c :CommentToggle<CR>
+
+" nvim-tree
 nnoremap <C-n> :NvimTreeToggle<CR>
 nnoremap <leader>r :NvimTreeRefresh<CR>
 nnoremap <leader>n :NvimTreeFindFile<CR>
@@ -67,4 +70,27 @@ nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 
 
 autocmd BufWritePre *.go lua goimports(1000)
+
+" easy align
+" Start interactive EasyAlign in visual mode (e.g. vipga)
+xmap ga <Plug>(EasyAlign)
+nmap ga <Plug>(EasyAlign)
+
+
+" easymotion
+" <Leader>f{char} to move to {char}
+map  <Leader>f <Plug>(easymotion-bd-f)
+nmap <Leader>f <Plug>(easymotion-overwin-f)
+
+" s{char}{char} to move to {char}{char}
+nmap s <Plug>(easymotion-overwin-f2)
+
+" Move to line
+map <Leader>L <Plug>(easymotion-bd-jk)
+nmap <Leader>L <Plug>(easymotion-overwin-line)
+
+" Move to word
+map  <Leader>w <Plug>(easymotion-bd-w)
+nmap <Leader>w <Plug>(easymotion-overwin-w)
+
 
