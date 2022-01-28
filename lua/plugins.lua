@@ -55,5 +55,6 @@ return require('packer').startup(function(use)
     use 'onsails/lspkind-nvim'
     use 'junegunn/vim-easy-align'
     use 'easymotion/vim-easymotion'
-    use 'liuchengxu/vista.vim'
+    -- use 'liuchengxu/vista.vim'
+    use 'preservim/tagbar'
 end)

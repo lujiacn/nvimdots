@@ -160,6 +160,11 @@ _G.packer_plugins = {
     path = "/Users/i0040679/.local/share/nvim/site/pack/packer/start/sonokai",
     url = "https://github.com/sainnhe/sonokai"
   },
+  tagbar = {
+    loaded = true,
+    path = "/Users/i0040679/.local/share/nvim/site/pack/packer/start/tagbar",
+    url = "https://github.com/preservim/tagbar"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/Users/i0040679/.local/share/nvim/site/pack/packer/start/telescope.nvim",
